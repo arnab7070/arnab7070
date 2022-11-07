@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **arnabnandi7074@gmail.com**
 
-- ⚡ Fun fact **I think I love to work with smile.**
+- ⚡ Visit my Portfolio Website <a href="https://arnab7070.github.io/arnab7070/">Click Here</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
