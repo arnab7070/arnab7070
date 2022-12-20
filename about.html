@@ -28,21 +28,125 @@
     </header>
   </div>
   <!-- About -->
-  <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="./images/about.png" alt="" width="50%" height="50%">
-    <h1 class="display-5 fw-bold">I am Arnab Nandi</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">I am Technophile person. I am always trying to learn differnt types of things related to
-        various types of technology. From the childhood I want to be an engineer. But when I grow up I discoverd my
-        interests in software field. So I take admission in BTech CSE. Before this I have completed my 12th class with a
-        96% marks from Burdwan Municipal High School. Then I got admission in Academy Of Technology (AOT). I am now a
-        2nd year student. My current YGPA is 9.75
-      </p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="https://arnab7070.github.io/blog/"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Visit my Coding Blog</button></a>
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="container px-4 py-4">
+        <div class="card col-lg-8 mx-auto">
+          <img src="./images/about.png" class="card-img-top" alt="Card image">
+          <div class="card-body">
+            <h5 class="card-title">Hello, 👋 I am Arnab Nandi</h5>
+            <p class="card-text">Android Developer (Flutter), Open Source Contributor, Web Developer, Currently
+              developing my skills. </p>
+            <a href="https://arnab7070.github.io/blog" class="btn btn-primary animated bounce"
+              data-animation-duration="2s">Coding Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="container px-4 py-4">
+        <div class="col-lg-10 mx-auto">
+          <div class="card-body">
+            <!-- Animation -->
+            <style>
+              .card {
+                animation: bounceIn 2s;
+              }
+
+              @keyframes bounceIn {
+                from {
+                  transform: scale(0);
+                }
+
+                to {
+                  transform: scale(1);
+                }
+              }
+            </style>
+            <!-- Animation -->
+
+            <!-- Animation for side bar -->
+            <!-- <style>
+              .lead {
+                animation: flipInX 2s;
+              }
+
+              @keyframes flipInX {
+                from {
+                  transform: rotateX(-90deg);
+                }
+
+                to {
+                  transform: rotateX(0deg);
+                }
+              }
+            </style> -->
+            <style>
+              .lead {
+                animation: bounceInDown 2s;
+              }
+
+              @keyframes bounceInDown {
+
+                from,
+                60%,
+                75%,
+                90%,
+                to {
+                  animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+                }
+
+                0% {
+                  opacity: 0;
+                  transform: translate3d(0, -3000px, 0);
+                }
+
+                60% {
+                  opacity: 1;
+                  transform: translate3d(0, 25px, 0);
+                }
+
+                75% {
+                  transform: translate3d(0, -10px, 0);
+                }
+
+                90% {
+                  transform: translate3d(0, 5px, 0);
+                }
+
+                to {
+                  transform: translate3d(0, 0, 0);
+                }
+              }
+            </style>
+            <!-- Animation for side bar -->
+
+            <p class="lead mb-6">I am Technophile person. I am always trying to learn differnt types of things
+              related to various types of technology. From the childhood I want to be an engineer. But when I grow up I
+              discoverd my
+              interests in software field.</p>
+            <p class="lead mb-6">
+              So I take admission in BTech CSE. Before this I have completed my 12th class
+              with a 96% marks from Burdwan Municipal High School. Then I got admission in Academy Of Technology
+              (AOT).
+              I am now a
+              2nd year student. My current YGPA is 9.75.
+            </p>
+            <p class="lead mb-6">
+              I have developed some interesting projects which you can
+              discover
+              in Projects tab. I hope you will love that projects. In the coming time I will also explore new
+              technologies to broad my knowledge in this
+              field.
+            </p>
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
+
+
   <!-- Footer -->
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
